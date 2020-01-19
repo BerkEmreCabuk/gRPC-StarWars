@@ -1,0 +1,16 @@
+C:\grpc\grpc-star-wars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.deps.json
+C:\grpc\grpc-star-wars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.dll
+C:\grpc\grpc-star-wars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.pdb
+C:\grpc\grpc-star-wars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.csprojAssemblyReference.cache
+C:\grpc\grpc-star-wars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.AssemblyInfoInputs.cache
+C:\grpc\grpc-star-wars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.AssemblyInfo.cs
+C:\grpc\grpc-star-wars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.dll
+C:\grpc\grpc-star-wars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.pdb
+C:\grpc\gRPC-StarWars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.deps.json
+C:\grpc\gRPC-StarWars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.dll
+C:\grpc\gRPC-StarWars\StarWarsProto\bin\Debug\netcoreapp3.0\StarWarsProto.pdb
+C:\grpc\gRPC-StarWars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.csprojAssemblyReference.cache
+C:\grpc\gRPC-StarWars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.AssemblyInfoInputs.cache
+C:\grpc\gRPC-StarWars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.AssemblyInfo.cs
+C:\grpc\gRPC-StarWars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.dll
+C:\grpc\gRPC-StarWars\StarWarsProto\obj\Debug\netcoreapp3.0\StarWarsProto.pdb

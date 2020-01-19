@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+enum StatusEnum{
+    Passive=0;
+    Active=1;
+}
+
+enum SpaceSystemEnum{
+    Naboo=0;
+    Alderaan=1;
+    Endor=2;
+    Hoth=3;
+    Jakku=4;
+    StarkillerBase=5;
+    Tatooine=6;
+}
+
+enum AlertEnum{
+    Normal=0;
+    EnemyAtack=1;
+}
+
+enum ObjectEnum{
+    Unknown=0;
+    Ally=1;
+    Enemy=2;
+}
+enum ObjectSizeEnum{
+    Small=0;
+    Medium=1;
+    Big=2;
+}

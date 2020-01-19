@@ -1,0 +1,3 @@
+StarWarsContract.cs \
+StarWarsContractGrpc.cs: Protos/Enums.proto\
+ Protos/StarWarsContract.proto

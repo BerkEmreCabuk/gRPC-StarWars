@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+import "Protos/Enums.proto";
+package startWarsContract; 
+
+service MillenniumFalconService{
+	rpc OpenLightSpeed (OpenLightSpeedRequest) returns  (OpenLightSpeedResponse) {}
+	rpc AutoControl (AutoControlRequest) returns  (stream AutoControlResponse) {}
+	rpc OpenRadarScanning (stream OpenRadarScanningRequest) returns  (OpenRadarScanningResponse) {}
+	rpc RadioControl (stream RadioControlRequest) returns  (stream RadioControlResponse) {}
+}
+
+message OpenLightSpeedRequest{
+    double Distance=1;
+    int64 Power=2;
+}
+
+message OpenLightSpeedResponse{
+    StatusEnum Status=1;
+}
+
+message AutoControlRequest {
+    StatusEnum Status = 1;
+    SpaceSystemEnum DestinationSystem=2;
+}
+
+message AutoControlResponse{
+    double Speed = 1;
+    double Distance=2;
+}
+
+message OpenRadarScanningRequest {
+    ObjectSizeEnum ObjectSize = 1;
+    double Distance=2;
+    ObjectEnum ObjectStatus=3;
+}
+
+message OpenRadarScanningResponse {
+    AlertEnum Alert=1;  
+}
+
+message RadioControlRequest {
+    SpaceSystemEnum System=1;
+    string Message = 2;
+}
+
+message RadioControlResponse {
+    SpaceSystemEnum System=1;
+    string Message = 2;
+}
