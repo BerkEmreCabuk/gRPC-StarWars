@@ -10,7 +10,6 @@ namespace MillenniumFalconServer.Services
     {
         public ServerService()
         {
-
         }
         public override async Task AutoControl(AutoControlRequest request, IServerStreamWriter<AutoControlResponse> responseStream, ServerCallContext context)
         {
